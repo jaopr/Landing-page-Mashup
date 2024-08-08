@@ -1,0 +1,175 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    color: #000;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    border-bottom: 1px solid #ddd;
+}
+
+.SMPOG{
+display: flex;
+justify-content: right;
+justify-items: right;
+
+}
+
+.header-content {
+    display: flex;
+    align-items: right;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 100px;
+}
+
+.intro-text {
+    font-size: 16px;
+}
+
+.main-section, .info-section {
+    padding: 40px 20px;
+}
+
+.main-title, .info-title {
+    font-size: 45px;
+    margin-bottom: 10px;
+    text-align: left;
+}
+
+.decorative-line {
+    width: 50px;
+    height: 2px;
+    background-color: #000;
+    margin: 10px 0;
+    align-self: flex-start;
+}
+
+.text-and-image {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+   
+}
+
+.text-content {
+    padding: 15px;
+    text-align: justify;
+    max-width: 50%;
+    flex: 1;
+    
+}
+
+.intro{
+    font-size: 35px;
+    padding: 15px;
+}
+
+.paragrafo{
+    padding: 15px;
+    font-size: 25px;
+    text-align: justify;
+}
+
+.main-image {
+    flex: 1;
+    background-image: url(img/dashboard.png);
+    background-size: auto;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+
+
+
+.text-and-image .main-image {
+    width: 564px;
+    height: 564px;
+}
+
+.subtitle-container{
+    padding: 20px;
+}
+
+.subtitles-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 30px;
+}
+
+.subtitle-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.subtitle-block {
+    flex: 1;
+    text-align: center;
+}
+
+.subtitle-block h3 {
+    text-align: justify;
+    margin: 10px;
+}
+
+.logos{
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+
+.link-div {
+    width: 350px; 
+    height: 200px; 
+    background-color: #f0f0f0;
+    border: 1px solid #ddd; 
+    border-radius: 7%;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logosi{
+    max-width: 125px;
+    height: auto;
+    display: block;
+}
+
+
+.link-div:hover {
+    background-color: #e0e0e0; /* Cor ao passar o mouse */
+}
+
+.link-blocks {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.link-block {
+    text-align: center;
+}
+
+.link-block a {
+    display: block;
+    margin-bottom: 10px;
+    text-decoration: none;
+    color: #000;
+    font-weight: bold;
+}
+
+.link-block img {
+    max-width: 100%;
+    height: auto;
+}
+
